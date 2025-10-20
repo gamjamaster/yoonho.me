@@ -21,8 +21,8 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    id: "study-habit-tracker",
-    title: "Study-Habit-Tracker",
+    id: "study-flow",
+    title: "Study-Flow",
     description: "A comprehensive web application designed to help students track and improve their study habits. Built with modern web technologies, this project demonstrates full-stack development skills and user-centered design principles.",
     technologies: ["React", "Node.js", "JavaScript", "CSS", "HTML", "Git"],
     features: [
