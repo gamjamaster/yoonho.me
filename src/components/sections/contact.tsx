@@ -104,7 +104,7 @@ export function ContactSection() {
               </p>
               <Button
                 size="lg"
-                className="bg-white text-black hover:bg-gray-100"
+                className="bg-white !text-black hover:bg-gray-100"
                 onClick={() => window.location.href = `mailto:${personalInfo.email}`}
               >
                 <Mail className="w-5 h-5 mr-2" />

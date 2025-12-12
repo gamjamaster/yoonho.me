@@ -1,13 +1,16 @@
 import { skills } from '@/lib/data/portfolio';
 import { SkillCard } from '@/components/ui/skill-card';
+import { Navigation } from '@/components/layout/navigation';
 
 export default function SkillsPage() {
   const primarySkills = skills.filter(skill => skill.category === 'primary');
   const secondarySkills = skills.filter(skill => skill.category === 'secondary');
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <Navigation />
+      <div className="pt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Technical Skills
@@ -40,6 +43,7 @@ export default function SkillsPage() {
               ))}
             </div>
           </section>
+        </div>
         </div>
       </div>
     </div>

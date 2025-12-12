@@ -46,6 +46,14 @@ export const projects: Project[] = [
       "Error handling"
     ],
     githubUrl: "https://github.com/gamjamaster/Ppt-to-Pdf"
+  },
+  {
+    id: "jushintech",
+    title: "JushinTech Company Website",
+    description: "This project involved redesigning and developing the official corporate website for Jushintech. The information architecture was restructured to help users quickly understand the company’s core technologies and product offerings. The UI was designed to emphasize reliability and professionalism, while a responsive layout and intuitive navigation were implemented to ensure an optimal experience across all devices",
+    technologies: ["Typescript"],
+    features: ["Responsive Design", "Fast Loading", "Clear Navigation", "Call-to-Action (CTA)", "Contact Form"],
+    liveUrl: "https://jushintech.com"
   }
 ];
 
