@@ -34,7 +34,8 @@ export const projects: Project[] = [
       "Data persistence and management",
       "Performance optimization"
     ],
-    githubUrl: "https://github.com/gamjamaster/Study-Habit-Tracker"
+    githubUrl: "https://github.com/gamjamaster/Study-Habit-Tracker",
+    liveUrl: "https://www.studyhabittrack.tech/"
   },
   {
     id: "pptx-to-pdf",
@@ -46,6 +47,7 @@ export const projects: Project[] = [
       "Error handling"
     ],
     githubUrl: "https://github.com/gamjamaster/Ppt-to-Pdf"
+    
   },
   {
     id: "jushintech",
